@@ -9,7 +9,7 @@ $_SESSION['kunci']="galau.utek-buntu.tk";
 
 	
 <head>
-<meta property="og:image" content="http://galau.utek-buntu.tk/root.png" />
+<meta property="og:image" content="http://dentric-id.github.io/typer/root.png" />
 	<style type="text/css"> @import "gaya.php"; </style>
 	<script src='script.js' type='text/javascript'></script> 
 <script src="jquery-1.4.4.min.js"></script>
