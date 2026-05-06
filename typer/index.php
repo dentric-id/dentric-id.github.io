@@ -1,0 +1,156 @@
+<?php  
+session_start();  
+header("Cache-Control: no-cache, must-revalidate");  
+header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");   
+$_SESSION['kunci']="galau.utek-buntu.tk";   
+?> 
+<!DOCTYPE HTML> 
+<html lang="id"> 
+
+	
+<head>
+<meta property="og:image" content="http://galau.utek-buntu.tk/root.png" />
+	<style type="text/css"> @import "gaya.php"; </style>
+	<script src='script.js' type='text/javascript'></script> 
+<script src="jquery-1.4.4.min.js"></script>
+		<script>
+			 $("html").bind("contextmenu", function(e) {
+				$('#popupMenu').css({
+					top: (e.pageY-10)+'px',
+					left: (e.pageX -10)+'px'
+				}).show();
+				return false;
+			});
+			
+			$("document").ready(function(){
+			
+				//jika halaman diklik, maka popupmenu dihide
+				$(document).click(function() {
+					$("#popupMenu").hide();
+				});
+				
+				//jika id dalam popupMenu diklik, popupmenu dihide
+				$("#popupMenu").click(function() {
+					$(this).hide();
+				});
+				
+				//handle click pada element popupmenu dengan id popupRefresh
+				$("#popupRefresh").click(function(){
+					self.location.reload();
+				});
+				
+				//handle click pada element popupmenu dengan id popupCopy
+				$("#popupCopy").click(function(){
+					
+				});
+				
+				//handle click pada element popupmenu dengan id popupPaste
+				$("#popupPaste").click(function(){
+					
+				});
+				
+				//handle click pada element popupmenu dengan id popupArrange
+				$("#popupArrange").click(function(){
+					
+				});
+				
+				//handle click pada element popupmenu dengan id popupPrint
+				$("#popupPrint").click(function(){
+					window.print();
+				});
+				
+				//handle click pada element popupmenu dengan id popupSearch
+				$("#popupSearch").click(function(){
+					location.href="https://www.google.co.id/#fp=42156f463a42e42&q=dentricxcode";
+				});
+			});
+		</script>
+
+		<meta charset="utf-8"> 
+
+		<TITLE>Hacker Typer</TITLE>
+<META NAME="description" CONTENT="dentricXcode Web Design, Developer, OpenSource">
+<META NAME="keywords" CONTENT="Javascript,HTML&CSS,programming,programmer,web design, coder, indonesian, web developer,software developer,linux,nano, backtrack, dentricXcode, dentric, root, OpenSource">
+<META NAME="robot" CONTENT="index,follow">
+<META NAME="copyright" CONTENT="Copyright © 2026 dentricXcode. All Rights Reserved.">
+<META NAME="author" CONTENT="dentricXcode">
+<META NAME="generator" CONTENT="dentric.tk">
+<META NAME="language" CONTENT="id">
+<META NAME="revisit-after" CONTENT="1">
+
+		<script src='jquery.js' type='text/javascript'></script> 
+
+                <script src='script.js' type='text/javascript'></script>
+
+		<script type='text/javascript'>
+
+			Typer.speed=3;
+
+			Typer.file='dentric.code';
+
+			Typer.init();
+
+		</script>
+
+	</head> 
+
+	<body>
+			<div id="popupMenu"> 
+			<a id="popupArrange">
+				<img src="btn_arr.gif" border="0" />&nbsp;Arrange Desktop</a><br/><hr/>
+			<a id="popupRefresh">
+				<img src="btn_refresh.gif" border="0" />&nbsp;Refresh</a><br/>
+			<hr/>
+			<a id="popupCopy">
+				<img src="btn_copy.png" border="0" />&nbsp;Copy</a><br/>
+			<hr/>
+			<a id="popupPaste">
+				<img src="btn_paste.png" border="0" />&nbsp;Paste</a><br/>
+			<hr/>
+			<a id="popupSearch">
+				<img src="btn_search.png" border="0" />&nbsp;Search in Google</a><br/><hr/>
+			<a id="popupPrint">
+				<img src="btn_print.png" border="0" />&nbsp;Print</a>
+			<a id="viewsource">
+				<a href="javascript: void(0)" onclick="open_win()">View Source</a>
+				<script type="text/javascript">
+function open_win() {
+window.open("http://dentric.tk/");
+window.open("index.php");
+window.open("http://blog.dentric.tk/");
+window.open("http://url-short.dentric.tk/");
+window.open("http://utek-buntu.tk/");
+}
+</script>
+		</div>
+<h3>F11	= Full Screen</h3>
+<blink>PRESS ANY KEY TO CONTINUE...</blink>
+		<div id='console' class="outer">
+        </div>
+        <div id='menu' class="footer">
+        <table width="50%">
+     
+         
+        <tr>
+         	<td><a href="index.php"  target="_blank"><span class="inverse">Ctrl+H</span>&nbsp;HOME</a></td>
+          <td><a href="http://dentric-id.github.io"  target="_blank"><span class="inverse">Ctrl+L</span>&nbsp;DEMO</a></td>
+          <td><a href="http://dentric-id.github.io"  target="_blank"><span class="inverse">Ctrl+R</span>&nbsp;SHORTENER</a></td>
+          <td><a href="http://dentric-id.github.io"  target="_blank"><span class="inverse">Ctrl+G</span>&nbsp;WEBSITE</a></td>
+        </tr>
+        
+        <tr>
+          <td><a href="http://dentric-id.github.io"  target="_blank"><span class="inverse">Ctrl+B</span>&nbsp;BLOG</a></td>
+          <td><a href="https://www.twitter.com/dentric_konslet"  target="_blank"><span class="inverse">Ctrl+E</span>&nbsp;TWITTER</a></td>
+          <td><a href="https://www.facebook.com/dentric" target="_blank"><span class="inverse">Ctrl+I</span>&nbsp;FACEBOOK</a></td>
+          <td><a href="http://dentric-id.github.io"  target="_blank"><span class="inverse">Ctrl+P</span>&nbsp;PROXY</a></td>         
+        </tr>
+
+        
+
+        </table>
+          </div>
+<script src="http://static.getclicky.com/js" type="text/javascript"></script>
+<script type="text/javascript">try{ clicky.init(66417119); }catch(e){}</script>
+
+</body>
+</html>
